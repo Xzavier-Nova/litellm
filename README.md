@@ -1,7 +1,8 @@
 1. 克隆当前仓库
 2. 在本地目录下创建 .env.litellm 环境变量文件
 3. 在环境变量配置文件中配置密钥，对应的是 config.yaml 中的每一个环境变量。
-4. 使用 docker 创建一个容器。详情请看 docker-compose.yml
+4. 使用 docker 创建一个容器。详情请看 docker-compose.yml。
+5. 需要注意映射到外部的端口是 7203，如果要修改端口，需要修改 docker-compose.yml 中的端口映射。
 
 我的 .env.litellm 文件内容如下：
 ```aiignore
