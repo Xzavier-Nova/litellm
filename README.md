@@ -6,7 +6,7 @@
 
 我的 .env.litellm 文件内容如下：
 ```aiignore
-# 在这里填入你的 API Keys，这里的环境变量，淫荡与 confi.yaml 中的设置，一一对应
+# 在这里填入你的 API Keys，这里的环境变量，应当与 confi.yaml 中的设置，一一对应
 OPENAI_API_KEY=xxxx
 Deepseek_API_KEY=xxxx
 GOOGLE_API_KEY=xxxx
