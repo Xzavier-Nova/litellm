@@ -23,8 +23,13 @@ model_list:
     litellm_params:
       model: deepseek/deepseek-reasoner
       api_key: "os.environ/Deepseek_API_KEY"
-      drop_params: ["tools"]
+      drop_params: [ "tools" ]
 
+  - model_name: openrouter-claude-sonnet-4.5
+    litellm_params:
+      model: openrouter/anthropic/claude-sonnet-4.5
+      api_key: "os.environ/OpenRouter_API_KEY"
+      api_base: "https://openrouter.ai/api/v1"
 
 litellm_settings:
   telemetry: False
